@@ -1,0 +1,10 @@
+# Secrets and Config
+.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+venv/
+
+# Logs
+*.log

@@ -1,0 +1,9 @@
+selenium~=4.25.0
+schedule~=1.2.2
+email==6.0.0a1
+pandas~=2.2.1
+python-telegram-bot~=20.4
+twilio~=7.17.0
+keyring~=23.10.0
+requests~=2.31.0  
+python-dotenv~=1.0.1
