@@ -17,7 +17,7 @@ chat_id = os.getenv("CHAT_ID")
 ACCOUNTS = [
     {"email": os.getenv("ACCOUNT_1_EMAIL"),
      "password": os.getenv("ACCOUNT_1_PASS"),
-     "status": "Estado do Processo\nA audiência prévia foi concluída e o seu processo está a ser analisado com base na informação que foi recolhida."
+     "status": "Estado do Processo\nO seu processo está a aguardar a decisão por parte da AIMA."
      },
     {"email": os.getenv("ACCOUNT_2_EMAIL"),
      "password": os.getenv("ACCOUNT_2_PASS"),
