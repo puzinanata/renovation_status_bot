@@ -2,8 +2,13 @@
 
 This project automates checking the renovation status in the AIMA personal account on the renovation portal.
 
-Before running project on other mashine:  chmod +x run_script.sh
+ - Copy project to your local machine
+ - Open terminal and go to project folder
+ - Create file with name ".env" and put into project folder
+ - Content this file copy from file env.txt and put your credentials
+ - Before running project:  chmod +x run_script.sh
+ - Run project: ./run_script.sh
 
-Create timetable for running script and save logs:
+If you want to create timetable for running script and save logs:
  - crontab -e
- - 0 8,11,14,17,20 * * * /path_to_project_folder/renovation_status_bot/run_script.sh /path_to_project_folder/renovation_status_bot/run_script.log 2>&1
+ - check status every 3 hours from 8-00 to 20-00: 0 8,11,14,17,20 * * * /path_to_project_folder/renovation_status_bot/run_script.sh /path_to_project_folder/renovation_status_bot/run_script.log 2>&1
