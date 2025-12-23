@@ -11,4 +11,7 @@ This project automates checking the renovation status in the AIMA personal accou
 
 If you want to create timetable for running script and save logs:
  - crontab -e
- - check status every 3 hours from 8-00 to 20-00: 0 8,11,14,17,20 * * * /path_to_project_folder/renovation_status_bot/run_script.sh /path_to_project_folder/renovation_status_bot/run_script.log 2>&1
+ - check status every 3 hours from 8-00 to 20-00 to put this line into opened file, change path to your project: 0 8,11,14,17,20 * * * /path_to_project_folder/renovation_status_bot/run_script.sh /path_to_project_folder/renovation_status_bot/run_script.log 2>&1
+ - ctrl+ O (capital letter O) to write changes
+ - enter to save changes
+ - ctrl+X  to exit crontab file
