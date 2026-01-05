@@ -8,3 +8,6 @@ venv/
 
 # Logs
 *.log
+
+# Ignore the private data folder (contains emails/statuses)
+data/
